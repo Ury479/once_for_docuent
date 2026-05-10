@@ -40,6 +40,15 @@ app.add_middleware(
 )
 
 
+@app.get("/")
+async def health_check():
+    return {
+        "service": "镜像证件照 API",
+        "status": "ok",
+        "docs": "/docs",
+    }
+
+
 # 证件照智能制作接口
 @app.post("/idphoto")
 async def idphoto_inference(

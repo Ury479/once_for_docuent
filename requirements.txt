@@ -1,6 +1,9 @@
+fastapi
+python-multipart
 opencv-python>=4.8.1.78
 onnxruntime>=1.15.0
 numpy<=1.26.4
+Pillow
 requests
 mtcnn-runtime
 tqdm

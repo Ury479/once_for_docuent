@@ -21,10 +21,13 @@ build
 *.pt
 *.onnx
 *.mnn
+!hivision/creator/weights/hivision_modnet.onnx
+!hivision/creator/weights/modnet_photographic_portrait_matting.onnx
 test/temp/*
 !test/temp/.gitkeep
 
 .python-version
+!.python-version
 
 # Ignore .png and .jpg files in the root directory
 /*.png
