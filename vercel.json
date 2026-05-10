@@ -3,7 +3,8 @@
   "functions": {
     "api/app.py": {
       "includeFiles": "{hivision/creator/weights/hivision_modnet.onnx,hivision/creator/weights/modnet_photographic_portrait_matting.onnx,hivision/plugin/beauty/lut/lut_origin.png,hivision/plugin/font/**,hivision/plugin/template/assets/**}",
-      "excludeFiles": "{.devcontainer/**,.github/**,assets/**,demo/**,docs/**,scripts/**,test/**,README*,Dockerfile,app.spec,docker-compose.yml,requirements-app.txt,requirements-dev.txt}"
+      "excludeFiles": "{.devcontainer/**,.github/**,assets/**,demo/**,docs/**,scripts/**,test/**,README*,Dockerfile,app.spec,docker-compose.yml,requirements-app.txt,requirements-dev.txt}",
+      "maxDuration": 60
     }
   }
 }
